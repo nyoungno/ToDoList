@@ -50,7 +50,7 @@ function render() {
   if (mode === "all") {
     list = taskList;
   } else {
-    // else if(mode=== "ongoing" || mode==="done") 을 결국 else 로 치환할 수 있다.
+    // else if(mode=== "ongoing" || mode==="done") 을 결국 else 로 치환
     list = filterList;
   }
 
