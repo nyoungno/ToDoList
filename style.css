@@ -1,24 +1,31 @@
 body {
   margin: 0;
-  background-image: url("./image/TODOLIST.png");
-  background-repeat: no-repeat;    
+  background-image: radial-gradient(
+    122.23% 100% at 0 100%,
+    #5bc5e8 0,
+    #3780bd 24.76%,
+    #103a8b 55.66%,
+    #021847 100%
+  );
+  background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   font-family: "Rajdhani", sans-serif;
 }
 
-.h1, h1 {
+.h1,
+h1 {
   font-weight: bolder;
 }
 
 .container {
-  background-color: white;
+  background-color: #e9e8e1;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   max-width: 800px;
-  border-top: 10px solid blanchedalmond;
-  border-bottom: 10px solid blanchedalmond;
-  height: 100%;
   min-height: 100vh;
+  height: 100%;
+  border: 12px solid #5f5453;
+  border-radius: 15px;
 }
 
 .input-area {
@@ -29,12 +36,13 @@ body {
   transition: padding-top 0.2s ease, margin-top 0.2s ease;
   width: 80%;
   border: none;
-  border: 1px solid blanchedalmond;
+  border: 1px solid #bbb9aa;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .task-input:focus {
   outline: none;
-  border-bottom: 3px solid blanchedalmond;
+  border-bottom: 3px solid #5f5453;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -60,9 +68,12 @@ body {
 }
 
 .button-add {
-  border: none;
-  background-color: blanchedalmond;
+  border: 2px;
+  border-radius: 20%;
+  background-color: #7cc52e;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  font-weight: bolder;
+  color: #f3f4f6;
 }
 
 .button-add:hover {
@@ -80,11 +91,19 @@ body {
   border: 1px solid lightgray;
   margin-top: 1em;
   position: relative;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .tab-type {
   display: flex;
   border-bottom: 1px solid lightgray;
+  background-color: #bbb9aa;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 1px 1px black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 0.3px black;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .tab-type div {
@@ -93,7 +112,7 @@ body {
 }
 
 #tab-underline {
-  background-color: lightpink;
+  background-color: #7d7d7c;
   height: 4px !important;
   position: absolute;
   top: 52px;
@@ -109,6 +128,7 @@ body {
   width: 100%;
   border-bottom: 1px solid lightgray;
   position: relative;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .task span {
