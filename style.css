@@ -1,16 +1,17 @@
+@import "https://fonts.googleapis.com/css?family=Bungee";
+
 body {
   margin: 0;
-  background-image: radial-gradient(
-    122.23% 100% at 0 100%,
-    #5bc5e8 0,
-    #3780bd 24.76%,
-    #103a8b 55.66%,
-    #021847 100%
-  );
+  background-image: url(https://cdn.pixabay.com/photo/2023/12/17/12/56/stream-8454178_1280.png);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
   height: 100vh;
   font-family: "Rajdhani", sans-serif;
+}
+
+.title {
+  font-family: "Bungee", sans-serif;
 }
 
 .h1,
@@ -74,6 +75,8 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   font-weight: bolder;
   color: #f3f4f6;
+  height: 28px;
+  width: 22px;
 }
 
 .button-add:hover {
@@ -100,7 +103,7 @@ h1 {
   background-color: #bbb9aa;
   font-weight: bolder;
   color: white;
-  text-shadow: 2px 1px 1px black;
+  text-shadow: 0px 2px 1px black;
   -webkit-text-fill-color: white;
   -webkit-text-stroke: 0.3px black;
   border-radius: 5px 5px 5px 5px;
@@ -129,6 +132,7 @@ h1 {
   border-bottom: 1px solid lightgray;
   position: relative;
   border-radius: 5px 5px 5px 5px;
+  font-weight: bolder;
 }
 
 .task span {
