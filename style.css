@@ -20,12 +20,12 @@ h1 {
 }
 
 .container {
-  background-color: #e9e8e1;
+  background-color: #e8e8e0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   max-width: 800px;
   min-height: 100vh;
   height: 100%;
-  border: 12px solid #5f5453;
+  border: 12px solid #534a47;
   border-radius: 15px;
 }
 
@@ -43,7 +43,7 @@ h1 {
 
 .task-input:focus {
   outline: none;
-  border-bottom: 3px solid #5f5453;
+  border-bottom: 3px solid #534a47;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -71,7 +71,7 @@ h1 {
 .button-add {
   border: 2px;
   border-radius: 20%;
-  background-color: #7cc52e;
+  background-color: #a2ca0b;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   font-weight: bolder;
   color: #f3f4f6;
@@ -115,7 +115,7 @@ h1 {
 }
 
 #tab-underline {
-  background-color: #7d7d7c;
+  background-color: #827c79;
   height: 4px !important;
   position: absolute;
   top: 52px;
